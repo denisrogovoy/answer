@@ -1,0 +1,13 @@
+*.terraform
+*.terraform.lock.hcl
+*terraform.tfstate
+aws/tmp/*.zip
+ibm/tmp/*.zip
+*.DS_Store
+*terraform.tfstate.backup
+*.terraform.tfstate.lock.info
+
+# OpenFaaS
+template
+openfaas/build
+credentials

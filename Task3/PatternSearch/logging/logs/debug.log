@@ -1,0 +1,428 @@
+2022-07-12 19:12:03,530 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:123] Using UNIX Socket for connecting to Docker Host. from Demo
+2022-07-12 19:12:03,751 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:74] Docker network for function containers already exits! Make sure this is set up correctly! from Demo
+2022-07-12 19:12:03,871 INFO [pool-1-thread-1] a.u.d.e.c.v.VerticleManager [VerticleManager.java:62] Deployed 40 verticles. from Demo
+2022-07-12 19:12:03,891 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/modify from Demo
+2022-07-12 19:12:03,970 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/assemble from Demo
+2022-07-12 19:12:04,008 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/splitsecond from Demo
+2022-07-12 19:12:04,023 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/split from Demo
+2022-07-12 19:12:04,071 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/assemblesecond from Demo
+2022-07-12 19:12:04,097 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/count from Demo
+2022-07-12 19:12:06,313 INFO [docker-java-stream-1897084847] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/assemble. from Demo
+2022-07-12 19:12:06,315 INFO [docker-java-stream-1897084847] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/assemble. from Demo
+2022-07-12 19:12:06,598 INFO [docker-java-stream--1715238377] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/modify. from Demo
+2022-07-12 19:12:06,598 INFO [docker-java-stream--1715238377] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/modify. from Demo
+2022-07-12 19:12:06,691 INFO [docker-java-stream--1996115376] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/count. from Demo
+2022-07-12 19:12:06,691 INFO [docker-java-stream--1996115376] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/count. from Demo
+2022-07-12 19:12:06,922 INFO [docker-java-stream-1530283855] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/splitsecond. from Demo
+2022-07-12 19:12:06,923 INFO [docker-java-stream-1530283855] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/splitsecond. from Demo
+2022-07-12 19:12:06,968 INFO [docker-java-stream-1897084847] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:12:07,047 INFO [docker-java-stream--1715238377] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:12:07,047 INFO [docker-java-stream-1518569947] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/split. from Demo
+2022-07-12 19:12:07,048 INFO [docker-java-stream-1518569947] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/split. from Demo
+2022-07-12 19:12:07,182 INFO [docker-java-stream--1996115376] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:12:07,754 INFO [docker-java-stream-1866024483] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/assemblesecond. from Demo
+2022-07-12 19:12:07,765 INFO [docker-java-stream-1866024483] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/assemblesecond. from Demo
+2022-07-12 19:12:08,029 INFO [docker-java-stream-1518569947] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:12:08,161 INFO [docker-java-stream-1530283855] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:12:08,458 INFO [docker-java-stream-1866024483] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:12:12,405 INFO [vert.x-eventloop-thread-2] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:12:12,550 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:12:15,407 INFO [vert.x-eventloop-thread-3] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:12:15,419 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:12:15,435 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:12:16,941 INFO [vert.x-eventloop-thread-2] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:12:16,946 INFO [vert.x-eventloop-thread-2] a.u.d.e.c.c.Control [Control.java:63] Pausing enactment. from Demo
+2022-07-12 19:12:20,172 INFO [AWT-EventQueue-0] a.u.d.e.c.c.Control [Control.java:53] Resuming enactment. from Demo
+2022-07-12 19:12:20,225 INFO [vert.x-eventloop-thread-3] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/split triggerred. from Demo
+2022-07-12 19:12:20,225 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/splitsecond triggerred. from Demo
+2022-07-12 19:12:20,519 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/splitsecond finished. from Demo
+2022-07-12 19:12:20,524 INFO [vert.x-eventloop-thread-3] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/split finished. from Demo
+2022-07-12 19:12:21,344 INFO [vert.x-eventloop-thread-2] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/count triggerred. from Demo
+2022-07-12 19:12:21,354 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/count triggerred. from Demo
+2022-07-12 19:12:21,384 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/count triggerred. from Demo
+2022-07-12 19:12:21,387 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/modify triggerred. from Demo
+2022-07-12 19:12:21,414 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/modify triggerred. from Demo
+2022-07-12 19:12:21,420 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/modify finished. from Demo
+2022-07-12 19:12:21,431 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/modify finished. from Demo
+2022-07-12 19:12:21,445 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/count finished. from Demo
+2022-07-12 19:12:21,446 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/count finished. from Demo
+2022-07-12 19:12:21,420 INFO [vert.x-eventloop-thread-2] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/count finished. from Demo
+2022-07-12 19:12:21,833 INFO [vert.x-eventloop-thread-2] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/assemble triggerred. from Demo
+2022-07-12 19:12:21,855 INFO [vert.x-eventloop-thread-2] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/assemble finished. from Demo
+2022-07-12 19:12:21,869 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:156] Local function denisrogovoy/assemblesecond triggerred. from Demo
+2022-07-12 19:12:21,892 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:161] Local function denisrogovoy/assemblesecond finished. from Demo
+2022-07-12 19:12:21,903 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:30] Workflow executed correctly. from Demo
+2022-07-12 19:12:21,904 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:31] Enactment result: {"sModified":"one one two","r":4} from Demo
+2022-07-12 19:12:21,905 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/count. from Demo
+2022-07-12 19:12:23,389 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/assemble. from Demo
+2022-07-12 19:12:24,463 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2559 ms, time limit is 2000 ms from Demo
+2022-07-12 19:12:25,034 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/assemblesecond. from Demo
+2022-07-12 19:12:25,479 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3575 ms, time limit is 2000 ms from Demo
+2022-07-12 19:12:25,782 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/splitsecond. from Demo
+2022-07-12 19:12:26,405 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/split. from Demo
+2022-07-12 19:12:26,489 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4585 ms, time limit is 2000 ms from Demo
+2022-07-12 19:12:27,503 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 5598 ms, time limit is 2000 ms from Demo
+io.vertx.core.VertxException: Thread blocked
+	at app//com.github.dockerjava.transport.DomainSocket.read(Native Method)
+	at app//com.github.dockerjava.transport.DomainSocket.read(DomainSocket.java:79)
+	at app//com.github.dockerjava.transport.DomainSocket.access$200(DomainSocket.java:35)
+	at app//com.github.dockerjava.transport.DomainSocket$DomainSocketInputStream.read(DomainSocket.java:164)
+	at app//org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at app//org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at app//org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:241)
+	at app//org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:53)
+	at app//org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:187)
+	at app//org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at app//com.github.dockerjava.httpclient5.HijackingHttpRequestExecutor.execute(HijackingHttpRequestExecutor.java:50)
+	at app//org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:596)
+	at app//org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:215)
+	at app//org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:107)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:181)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:172)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:93)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:128)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:178)
+	at app//org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:67)
+	at app//com.github.dockerjava.httpclient5.ApacheDockerHttpClientImpl.execute(ApacheDockerHttpClientImpl.java:175)
+	at app//com.github.dockerjava.httpclient5.ApacheDockerHttpClient.execute(ApacheDockerHttpClient.java:9)
+	at app//com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:228)
+	at app//com.github.dockerjava.core.DefaultInvocationBuilder.delete(DefaultInvocationBuilder.java:56)
+	at app//com.github.dockerjava.core.exec.RemoveContainerCmdExec.execute(RemoveContainerCmdExec.java:28)
+	at app//com.github.dockerjava.core.exec.RemoveContainerCmdExec.execute(RemoveContainerCmdExec.java:11)
+	at app//com.github.dockerjava.core.exec.AbstrSyncDockerCmdExec.exec(AbstrSyncDockerCmdExec.java:21)
+	at app//com.github.dockerjava.core.command.AbstrDockerCmd.exec(AbstrDockerCmd.java:35)
+	at app//com.github.dockerjava.core.command.RemoveContainerCmdImpl.exec(RemoveContainerCmdImpl.java:67)
+	at app//at.uibk.dps.ee.docker.manager.ContainerManagerDockerAPI.closeImage(ContainerManagerDockerAPI.java:305)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers.lambda$terminate$2(LocalDockerContainers.java:73)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers$$Lambda$514/0x00000001015e6440.apply(Unknown Source)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1620)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base@11.0.15/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers.terminate(LocalDockerContainers.java:73)
+	at app//at.uibk.dps.ee.guice.init_term.TerminatorSet$$Lambda$513/0x00000001015e6040.apply(Unknown Source)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base@11.0.15/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base@11.0.15/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at app//at.uibk.dps.ee.guice.init_term.TerminatorSet.terminate(TerminatorSet.java:41)
+	at app//at.uibk.dps.ee.core.EeCore.lambda$null$2(EeCore.java:61)
+	at app//at.uibk.dps.ee.core.EeCore$$Lambda$351/0x0000000101585440.handle(Unknown Source)
+	at app//io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:124)
+	at app//io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:62)
+	at app//io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:179)
+	at app//io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at app//io.vertx.core.Promise.complete(Promise.java:66)
+	at app//at.uibk.dps.ee.core.EeCore.lambda$executeWorkflow$4(EeCore.java:92)
+	at app//at.uibk.dps.ee.core.EeCore$$Lambda$350/0x0000000101585040.handle(Unknown Source)
+	at app//io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:124)
+	at app//io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:62)
+	at app//io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:179)
+	at app//io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at app//io.vertx.core.Promise.complete(Promise.java:66)
+	at app//at.uibk.dps.ee.control.verticles.VerticleFunction.handleResult(VerticleFunction.java:76)
+	at app//at.uibk.dps.ee.control.verticles.VerticleFunction$$Lambda$296/0x0000000101565840.handle(Unknown Source)
+	at app//io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:49)
+	at app//io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:167)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:187)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.next(HandlerRegistration.java:163)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.dispatch(HandlerRegistration.java:128)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$$Lambda$337/0x0000000101575840.run(Unknown Source)
+	at app//io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:107)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:104)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:193)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:178)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:54)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$$Lambda$336/0x0000000101575040.run(Unknown Source)
+	at app//io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+2022-07-12 19:12:28,556 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 6651 ms, time limit is 2000 ms from Demo
+io.vertx.core.VertxException: Thread blocked
+	at app//com.github.dockerjava.transport.DomainSocket.read(Native Method)
+	at app//com.github.dockerjava.transport.DomainSocket.read(DomainSocket.java:79)
+	at app//com.github.dockerjava.transport.DomainSocket.access$200(DomainSocket.java:35)
+	at app//com.github.dockerjava.transport.DomainSocket$DomainSocketInputStream.read(DomainSocket.java:164)
+	at app//org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at app//org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at app//org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:241)
+	at app//org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:53)
+	at app//org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:187)
+	at app//org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at app//com.github.dockerjava.httpclient5.HijackingHttpRequestExecutor.execute(HijackingHttpRequestExecutor.java:50)
+	at app//org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:596)
+	at app//org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:215)
+	at app//org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:107)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:181)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:172)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:93)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:128)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:178)
+	at app//org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:67)
+	at app//com.github.dockerjava.httpclient5.ApacheDockerHttpClientImpl.execute(ApacheDockerHttpClientImpl.java:175)
+	at app//com.github.dockerjava.httpclient5.ApacheDockerHttpClient.execute(ApacheDockerHttpClient.java:9)
+	at app//com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:228)
+	at app//com.github.dockerjava.core.DefaultInvocationBuilder.delete(DefaultInvocationBuilder.java:56)
+	at app//com.github.dockerjava.core.exec.RemoveContainerCmdExec.execute(RemoveContainerCmdExec.java:28)
+	at app//com.github.dockerjava.core.exec.RemoveContainerCmdExec.execute(RemoveContainerCmdExec.java:11)
+	at app//com.github.dockerjava.core.exec.AbstrSyncDockerCmdExec.exec(AbstrSyncDockerCmdExec.java:21)
+	at app//com.github.dockerjava.core.command.AbstrDockerCmd.exec(AbstrDockerCmd.java:35)
+	at app//com.github.dockerjava.core.command.RemoveContainerCmdImpl.exec(RemoveContainerCmdImpl.java:67)
+	at app//at.uibk.dps.ee.docker.manager.ContainerManagerDockerAPI.closeImage(ContainerManagerDockerAPI.java:305)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers.lambda$terminate$2(LocalDockerContainers.java:73)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers$$Lambda$514/0x00000001015e6440.apply(Unknown Source)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1620)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base@11.0.15/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers.terminate(LocalDockerContainers.java:73)
+	at app//at.uibk.dps.ee.guice.init_term.TerminatorSet$$Lambda$513/0x00000001015e6040.apply(Unknown Source)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base@11.0.15/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base@11.0.15/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at app//at.uibk.dps.ee.guice.init_term.TerminatorSet.terminate(TerminatorSet.java:41)
+	at app//at.uibk.dps.ee.core.EeCore.lambda$null$2(EeCore.java:61)
+	at app//at.uibk.dps.ee.core.EeCore$$Lambda$351/0x0000000101585440.handle(Unknown Source)
+	at app//io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:124)
+	at app//io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:62)
+	at app//io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:179)
+	at app//io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at app//io.vertx.core.Promise.complete(Promise.java:66)
+	at app//at.uibk.dps.ee.core.EeCore.lambda$executeWorkflow$4(EeCore.java:92)
+	at app//at.uibk.dps.ee.core.EeCore$$Lambda$350/0x0000000101585040.handle(Unknown Source)
+	at app//io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:124)
+	at app//io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:62)
+	at app//io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:179)
+	at app//io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at app//io.vertx.core.Promise.complete(Promise.java:66)
+	at app//at.uibk.dps.ee.control.verticles.VerticleFunction.handleResult(VerticleFunction.java:76)
+	at app//at.uibk.dps.ee.control.verticles.VerticleFunction$$Lambda$296/0x0000000101565840.handle(Unknown Source)
+	at app//io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:49)
+	at app//io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:167)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:187)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.next(HandlerRegistration.java:163)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.dispatch(HandlerRegistration.java:128)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$$Lambda$337/0x0000000101575840.run(Unknown Source)
+	at app//io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:107)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:104)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:193)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:178)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:54)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$$Lambda$336/0x0000000101575040.run(Unknown Source)
+	at app//io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+2022-07-12 19:12:29,013 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/modify. from Demo
+2022-07-12 19:12:29,560 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 7655 ms, time limit is 2000 ms from Demo
+io.vertx.core.VertxException: Thread blocked
+	at app//com.github.dockerjava.transport.DomainSocket.read(Native Method)
+	at app//com.github.dockerjava.transport.DomainSocket.read(DomainSocket.java:79)
+	at app//com.github.dockerjava.transport.DomainSocket.access$200(DomainSocket.java:35)
+	at app//com.github.dockerjava.transport.DomainSocket$DomainSocketInputStream.read(DomainSocket.java:164)
+	at app//org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at app//org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at app//org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:241)
+	at app//org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:53)
+	at app//org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:187)
+	at app//org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at app//com.github.dockerjava.httpclient5.HijackingHttpRequestExecutor.execute(HijackingHttpRequestExecutor.java:50)
+	at app//org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at app//org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:596)
+	at app//org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:215)
+	at app//org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:107)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:181)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:172)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:93)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:128)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at app//org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at app//org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at app//org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:178)
+	at app//org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:67)
+	at app//com.github.dockerjava.httpclient5.ApacheDockerHttpClientImpl.execute(ApacheDockerHttpClientImpl.java:175)
+	at app//com.github.dockerjava.httpclient5.ApacheDockerHttpClient.execute(ApacheDockerHttpClient.java:9)
+	at app//com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:228)
+	at app//com.github.dockerjava.core.DefaultInvocationBuilder.delete(DefaultInvocationBuilder.java:56)
+	at app//com.github.dockerjava.core.exec.RemoveContainerCmdExec.execute(RemoveContainerCmdExec.java:28)
+	at app//com.github.dockerjava.core.exec.RemoveContainerCmdExec.execute(RemoveContainerCmdExec.java:11)
+	at app//com.github.dockerjava.core.exec.AbstrSyncDockerCmdExec.exec(AbstrSyncDockerCmdExec.java:21)
+	at app//com.github.dockerjava.core.command.AbstrDockerCmd.exec(AbstrDockerCmd.java:35)
+	at app//com.github.dockerjava.core.command.RemoveContainerCmdImpl.exec(RemoveContainerCmdImpl.java:67)
+	at app//at.uibk.dps.ee.docker.manager.ContainerManagerDockerAPI.closeImage(ContainerManagerDockerAPI.java:305)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers.lambda$terminate$2(LocalDockerContainers.java:73)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers$$Lambda$514/0x00000001015e6440.apply(Unknown Source)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1620)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base@11.0.15/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at app//at.uibk.dps.ee.docker.LocalDockerContainers.terminate(LocalDockerContainers.java:73)
+	at app//at.uibk.dps.ee.guice.init_term.TerminatorSet$$Lambda$513/0x00000001015e6040.apply(Unknown Source)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base@11.0.15/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base@11.0.15/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base@11.0.15/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at app//at.uibk.dps.ee.guice.init_term.TerminatorSet.terminate(TerminatorSet.java:41)
+	at app//at.uibk.dps.ee.core.EeCore.lambda$null$2(EeCore.java:61)
+	at app//at.uibk.dps.ee.core.EeCore$$Lambda$351/0x0000000101585440.handle(Unknown Source)
+	at app//io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:124)
+	at app//io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:62)
+	at app//io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:179)
+	at app//io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at app//io.vertx.core.Promise.complete(Promise.java:66)
+	at app//at.uibk.dps.ee.core.EeCore.lambda$executeWorkflow$4(EeCore.java:92)
+	at app//at.uibk.dps.ee.core.EeCore$$Lambda$350/0x0000000101585040.handle(Unknown Source)
+	at app//io.vertx.core.impl.future.FutureImpl$3.onSuccess(FutureImpl.java:124)
+	at app//io.vertx.core.impl.future.FutureBase.emitSuccess(FutureBase.java:62)
+	at app//io.vertx.core.impl.future.FutureImpl.tryComplete(FutureImpl.java:179)
+	at app//io.vertx.core.impl.future.PromiseImpl.tryComplete(PromiseImpl.java:23)
+	at app//io.vertx.core.Promise.complete(Promise.java:66)
+	at app//at.uibk.dps.ee.control.verticles.VerticleFunction.handleResult(VerticleFunction.java:76)
+	at app//at.uibk.dps.ee.control.verticles.VerticleFunction$$Lambda$296/0x0000000101565840.handle(Unknown Source)
+	at app//io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:49)
+	at app//io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:167)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:187)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.next(HandlerRegistration.java:163)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.dispatch(HandlerRegistration.java:128)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$$Lambda$337/0x0000000101575840.run(Unknown Source)
+	at app//io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:107)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:104)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:193)
+	at app//io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:178)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:54)
+	at app//io.vertx.core.eventbus.impl.HandlerRegistration$$Lambda$336/0x0000000101575040.run(Unknown Source)
+	at app//io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@11.0.15/java.lang.Thread.run(Thread.java:834)
+2022-07-12 19:15:39,853 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:123] Using UNIX Socket for connecting to Docker Host. from Demo
+2022-07-12 19:15:39,862 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:74] Docker network for function containers already exits! Make sure this is set up correctly! from Demo
+2022-07-12 19:15:39,894 INFO [pool-1-thread-1] a.u.d.e.c.v.VerticleManager [VerticleManager.java:62] Deployed 40 verticles. from Demo
+2022-07-12 19:15:39,896 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/modify from Demo
+2022-07-12 19:15:39,905 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/assemble from Demo
+2022-07-12 19:15:39,913 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/splitsecond from Demo
+2022-07-12 19:15:39,921 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/split from Demo
+2022-07-12 19:15:39,943 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/assemblesecond from Demo
+2022-07-12 19:15:39,948 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:216] Pull command image denisrogovoy/count from Demo
+2022-07-12 19:15:42,376 INFO [docker-java-stream-1518569947] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/split. from Demo
+2022-07-12 19:15:42,376 INFO [docker-java-stream-1518569947] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/split. from Demo
+2022-07-12 19:15:42,422 INFO [docker-java-stream-1897084847] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/assemble. from Demo
+2022-07-12 19:15:42,423 INFO [docker-java-stream-1897084847] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/assemble. from Demo
+2022-07-12 19:15:42,422 INFO [docker-java-stream-1530283855] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/splitsecond. from Demo
+2022-07-12 19:15:42,423 INFO [docker-java-stream-1530283855] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/splitsecond. from Demo
+2022-07-12 19:15:42,523 INFO [docker-java-stream--1715238377] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/modify. from Demo
+2022-07-12 19:15:42,524 INFO [docker-java-stream--1715238377] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/modify. from Demo
+2022-07-12 19:15:42,750 INFO [docker-java-stream--1996115376] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/count. from Demo
+2022-07-12 19:15:42,750 INFO [docker-java-stream--1996115376] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/count. from Demo
+2022-07-12 19:15:42,798 INFO [docker-java-stream-1866024483] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:209] Pulled image denisrogovoy/assemblesecond. from Demo
+2022-07-12 19:15:42,800 INFO [docker-java-stream-1866024483] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:210] Returned pull status Status: Image is up to date for denisrogovoy/assemblesecond. from Demo
+2022-07-12 19:15:42,804 INFO [docker-java-stream-1518569947] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:15:42,842 INFO [docker-java-stream-1897084847] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:15:42,843 INFO [docker-java-stream-1530283855] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:15:42,939 INFO [docker-java-stream--1715238377] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:15:43,125 INFO [docker-java-stream--1996115376] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:15:43,196 INFO [docker-java-stream-1866024483] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:258] Starting container from Demo
+2022-07-12 19:15:50,515 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:15:50,516 INFO [vert.x-eventloop-thread-2] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:15:50,516 INFO [vert.x-eventloop-thread-3] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:15:53,710 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:15:54,220 INFO [vert.x-eventloop-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:15:55,013 INFO [vert.x-eventloop-thread-2] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:281] running! from Demo
+2022-07-12 19:15:55,015 INFO [vert.x-eventloop-thread-2] a.u.d.e.c.c.Control [Control.java:63] Pausing enactment. from Demo
+2022-07-12 19:16:03,146 INFO [AWT-EventQueue-0] a.u.d.e.c.c.Control [Control.java:53] Resuming enactment. from Demo
+2022-07-12 19:16:03,547 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://bp4rqdvb74.execute-api.us-east-1.amazonaws.com/SplitSecond triggerred. from Demo
+2022-07-12 19:16:03,577 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://5npswa17la.execute-api.us-east-1.amazonaws.com/Split triggerred. from Demo
+2022-07-12 19:16:04,774 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://bp4rqdvb74.execute-api.us-east-1.amazonaws.com/SplitSecond finished from Demo
+2022-07-12 19:16:05,062 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://5npswa17la.execute-api.us-east-1.amazonaws.com/Split finished from Demo
+2022-07-12 19:16:06,637 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify triggerred. from Demo
+2022-07-12 19:16:06,705 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify triggerred. from Demo
+2022-07-12 19:16:06,968 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count triggerred. from Demo
+2022-07-12 19:16:07,075 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count triggerred. from Demo
+2022-07-12 19:16:07,098 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count triggerred. from Demo
+2022-07-12 19:16:07,647 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count finished from Demo
+2022-07-12 19:16:07,661 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count finished from Demo
+2022-07-12 19:16:07,720 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count finished from Demo
+2022-07-12 19:16:07,861 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://0pyk2eyx72.execute-api.us-east-1.amazonaws.com/Assemble triggerred. from Demo
+2022-07-12 19:16:07,889 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify finished from Demo
+2022-07-12 19:16:07,896 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify finished from Demo
+2022-07-12 19:16:08,818 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://0pyk2eyx72.execute-api.us-east-1.amazonaws.com/Assemble finished from Demo
+2022-07-12 19:16:08,834 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://u1vjskaapb.execute-api.us-east-1.amazonaws.com/AssembleSecond triggerred. from Demo
+2022-07-12 19:16:09,439 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://u1vjskaapb.execute-api.us-east-1.amazonaws.com/AssembleSecond finished from Demo
+2022-07-12 19:16:09,442 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:30] Workflow executed correctly. from Demo
+2022-07-12 19:16:09,442 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:31] Enactment result: {"sModified":"one one two","r":4} from Demo
+2022-07-12 19:16:09,442 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/count. from Demo
+2022-07-12 19:16:10,482 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/assemble. from Demo
+2022-07-12 19:16:11,011 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/assemblesecond. from Demo
+2022-07-12 19:16:11,544 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2101 ms, time limit is 2000 ms from Demo
+2022-07-12 19:16:11,809 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/splitsecond. from Demo
+2022-07-12 19:16:12,452 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/split. from Demo
+2022-07-12 19:16:12,554 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3112 ms, time limit is 2000 ms from Demo
+2022-07-12 19:16:12,994 INFO [vert.x-eventloop-thread-0] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:304] Removing container denisrogovoy/modify. from Demo
+2022-07-12 19:16:13,555 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4113 ms, time limit is 2000 ms from Demo

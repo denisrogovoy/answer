@@ -1,0 +1,145 @@
+---
+name: "patternSearch"
+dataIns:
+- name: "s"
+  type: "string"
+  source: "s"
+- name: "p"
+  type: "string"
+  source: "p"
+- name: "w"
+  type: "number"
+  source: "w"
+- name: "m"
+  type: "number"
+  source: "m"
+workflowBody:
+- function:
+    name: "Split"
+    type: "Split"
+    dataIns:
+    - name: "originalStr"
+      type: "string"
+      source: "patternSearch/s"
+    - name: "batchSize"
+      type: "number"
+      source: "patternSearch/w"
+    dataOuts:
+    - name: "stringBatches"
+      type: "collection"
+- parallelFor:
+    name: "forEachCount"
+    dataIns:
+    - name: "stringArr"
+      type: "collection"
+      source: "Split/stringBatches"
+    iterators: ["stringArr"]
+    loopBody:
+    - function:
+        name: "Count"
+        type: "Count"
+        dataIns:
+        - name: "batch"
+          type: "collection"
+          source: "forEachCount/stringArr"
+        - name: "pattern"
+          type: "string"
+          source: "patternSearch/p"
+        dataOuts:
+        - name: "counterValue"
+          type: "number"
+    dataOuts:
+    - name: "counterValueArray"
+      type: "collection"
+      source: "Count/counterValue"
+- function:
+    name: "Assemble"
+    type: "Assemble"
+    dataIns:
+    - name: "counterValueArray"
+      type: "collection"
+      source: "forEachCount/counterValueArray"
+    dataOuts:
+    - name: "sum"
+      type: "number"
+- function:
+    name: "SplitSecond"
+    type: "SplitSecond"
+    dataIns:
+    - name: "originalStr"
+      type: "string"
+      source: "patternSearch/s"
+    - name: "pattern"
+      type: "string"
+      source: "patternSearch/p"
+    - name: "batchSize"
+      type: "number"
+      source: "patternSearch/w"
+    - name: "threshold"
+      type: "number"
+      source: "patternSearch/m"
+    dataOuts:
+    - name: "stringBatchesModified"
+      type: "collection"
+    - name: "thresholdStr"
+      type: "string"
+- parallelFor:
+    name: "forEachModify"
+    dataIns:
+    - name: "stringArray"
+      type: "collection"
+      source: "SplitSecond/stringBatchesModified"
+    iterators: ["stringArray"]
+    loopBody:
+    - function:
+        name: "Modify"
+        type: "Modify"
+        dataIns:
+        - name: "batch"
+          type: "collection"
+          source: "forEachModify/stringArray"
+        - name: "pattern"
+          type: "string"
+          source: "patternSearch/p"
+        dataOuts:
+        - name: "modifiedStr"
+          type: "string"
+    dataOuts:
+    - name: "modifiedStrArray"
+      type: "collection"
+      source: "Modify/modifiedStr"
+- if:
+    name: "assembleSecondCondition"
+    condition:
+    - data1: "Assemble/sum"
+      data2: "patternSearch/m"
+      type: "number"
+      operator: ">"
+      negation: "false"
+      combinedWith: "and"
+    then:
+    - function:
+        name: "AssembleSecond"
+        type: "AssembleSecond"
+        dataIns:
+        - name: "modifiedArray"
+          type: "collection"
+          source: "forEachModify/modifiedStrArray"
+        - name: "thresholdStr"
+          type: "string"
+          source: "SplitSecond/thresholdStr"
+        dataOuts:
+        - name: "modifiedStr"
+          type: "string"
+    dataOuts:
+    - name: "modifiedStrResult"
+      type: "string"
+      source: "AssembleSecond/modifiedStr,patternSearch/s"
+dataOuts:
+- name: "r"
+  type: "number"
+  source: "Assemble/sum"
+- name: "sModified"
+  type: "string"
+  source: "assembleSecondCondition/modifiedStrResult"
+

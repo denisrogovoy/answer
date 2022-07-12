@@ -1,0 +1,29 @@
+2022-07-11 13:21:05,772 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:123] Using UNIX Socket for connecting to Docker Host. from Demo
+2022-07-11 13:21:05,952 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:74] Docker network for function containers already exits! Make sure this is set up correctly! from Demo
+2022-07-11 13:21:06,062 INFO [pool-1-thread-1] a.u.d.e.c.v.VerticleManager [VerticleManager.java:62] Deployed 40 verticles. from Demo
+2022-07-11 13:21:06,068 INFO [pool-1-thread-1] a.u.d.e.c.c.Control [Control.java:63] Pausing enactment. from Demo
+2022-07-11 13:21:08,170 INFO [AWT-EventQueue-0] a.u.d.e.c.c.Control [Control.java:53] Resuming enactment. from Demo
+2022-07-11 13:21:08,559 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://bp4rqdvb74.execute-api.us-east-1.amazonaws.com/SplitSecond triggerred. from Demo
+2022-07-11 13:21:08,568 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://5npswa17la.execute-api.us-east-1.amazonaws.com/Split triggerred. from Demo
+2022-07-11 13:21:09,761 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://bp4rqdvb74.execute-api.us-east-1.amazonaws.com/SplitSecond finished from Demo
+2022-07-11 13:21:09,901 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://5npswa17la.execute-api.us-east-1.amazonaws.com/Split finished from Demo
+2022-07-11 13:21:09,967 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify triggerred. from Demo
+2022-07-11 13:21:09,968 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify triggerred. from Demo
+2022-07-11 13:21:09,981 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify triggerred. from Demo
+2022-07-11 13:21:10,016 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify triggerred. from Demo
+2022-07-11 13:21:10,018 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify triggerred. from Demo
+2022-07-11 13:21:10,287 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count triggerred. from Demo
+2022-07-11 13:21:10,287 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count triggerred. from Demo
+2022-07-11 13:21:10,318 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count triggerred. from Demo
+2022-07-11 13:21:10,675 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify finished from Demo
+2022-07-11 13:21:10,705 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify finished from Demo
+2022-07-11 13:21:10,840 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify finished from Demo
+2022-07-11 13:21:10,841 INFO [vert.x-eventloop-thread-0] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify finished from Demo
+2022-07-11 13:21:10,842 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify finished from Demo
+2022-07-11 13:21:10,844 INFO [vert.x-eventloop-thread-1] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count finished from Demo
+2022-07-11 13:21:10,997 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count finished from Demo
+2022-07-11 13:21:11,002 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count finished from Demo
+2022-07-11 13:21:11,181 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://0pyk2eyx72.execute-api.us-east-1.amazonaws.com/Assemble triggerred. from Demo
+2022-07-11 13:21:11,996 INFO [vert.x-eventloop-thread-3] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://0pyk2eyx72.execute-api.us-east-1.amazonaws.com/Assemble finished from Demo
+2022-07-11 13:21:12,003 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:30] Workflow executed correctly. from Demo
+2022-07-11 13:21:12,004 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:31] Enactment result: {"sModified":"one one one two one","r":4} from Demo

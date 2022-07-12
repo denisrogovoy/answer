@@ -1,0 +1,66 @@
+---
+name: "patternSearch"
+dataIns:
+- name: "s"
+  type: "string"
+  source: "s"
+- name: "p"
+  type: "string"
+  source: "p"
+- name: "w"
+  type: "number"
+  source: "w"
+workflowBody:
+- function:
+    name: "Split"
+    type: "Split"
+    dataIns:
+    - name: "originalStr"
+      type: "string"
+      source: "patternSearch/s"
+    - name: "batchSize"
+      type: "number"
+      source: "patternSearch/w"
+    dataOuts:
+    - name: "stringBatches"
+      type: "collection"
+- parallelFor:
+    name: "forEachCount"
+    dataIns:
+    - name: "stringArr"
+      type: "collection"
+      source: "Split/stringBatches"
+    iterators: ["stringArr"]
+    loopBody:
+    - function:
+        name: "Count"
+        type: "Count"
+        dataIns:
+        - name: "batch"
+          type: "collection"
+          source: "forEachCount/stringArr"
+        - name: "pattern"
+          type: "string"
+          source: "patternSearch/p"
+        dataOuts:
+        - name: "counterValue"
+          type: "number"
+    dataOuts:
+    - name: "counterValueArray"
+      type: "collection"
+      source: "Count/counterValue"
+- function:
+    name: "Assemble"
+    type: "Assemble"
+    dataIns:
+    - name: "counterValueArray"
+      type: "collection"
+      source: "forEachCount/counterValueArray"
+    dataOuts:
+    - name: "sum"
+      type: "number"
+dataOuts:
+- name: "r"
+  type: "number"
+  source: "Assemble/sum"
+

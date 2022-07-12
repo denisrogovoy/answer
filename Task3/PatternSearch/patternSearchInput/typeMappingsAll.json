@@ -1,0 +1,105 @@
+[
+    {
+        "functionType": "Assemble",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://0pyk2eyx72.execute-api.us-east-1.amazonaws.com/Assemble"
+                }
+            },
+            {
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/assemble"
+				}
+			}
+        ]
+    },
+    {
+        "functionType": "AssembleSecond",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://u1vjskaapb.execute-api.us-east-1.amazonaws.com/AssembleSecond"
+                }
+            },
+            {
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/assemblesecond"
+				}
+			}
+        ]
+    },
+    {
+        "functionType": "Count",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count"
+                }
+            },
+            {
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/count"
+				}
+			}
+        ]
+    },
+    {
+        "functionType": "Modify",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify"
+                }
+            },
+            {
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/modify"
+				}
+			}
+        ]
+    },
+    {
+        "functionType": "Split",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://5npswa17la.execute-api.us-east-1.amazonaws.com/Split"
+                }
+            },
+            {
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/split"
+				}
+			}
+        ]
+    },
+    {
+        "functionType": "SplitSecond",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://bp4rqdvb74.execute-api.us-east-1.amazonaws.com/SplitSecond"
+                }
+            },
+            {
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/splitsecond"
+				}
+			}
+        ]
+    }
+]
+

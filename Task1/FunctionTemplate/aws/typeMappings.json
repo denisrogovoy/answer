@@ -1,0 +1,35 @@
+[
+    {
+        "functionType": "Assemble",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://0pyk2eyx72.execute-api.us-east-1.amazonaws.com/Assemble"
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "Count",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count"
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "Split",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://5npswa17la.execute-api.us-east-1.amazonaws.com/Split"
+                }
+            }
+        ]
+    }
+]

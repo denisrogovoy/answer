@@ -1,0 +1,68 @@
+[
+	{
+		"functionType": "Split",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/split"
+				}
+			}
+		]
+	},
+    {
+		"functionType": "Count",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/count"
+				}
+			}
+		]
+	},
+    {
+		"functionType": "Assemble",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/assemble"
+				}
+			}
+		]
+	},
+    {
+		"functionType": "SplitSecond",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/splitsecond"
+				}
+			}
+		]
+	},
+    {
+		"functionType": "Modify",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/modify"
+				}
+			}
+		]
+	},
+    {
+		"functionType": "AssembleSecond",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "denisrogovoy/assemblesecond"
+				}
+			}
+		]
+	}
+]

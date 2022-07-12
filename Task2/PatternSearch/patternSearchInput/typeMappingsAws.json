@@ -1,0 +1,68 @@
+[
+    {
+        "functionType": "Assemble",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://0pyk2eyx72.execute-api.us-east-1.amazonaws.com/Assemble"
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "AssembleSecond",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://u1vjskaapb.execute-api.us-east-1.amazonaws.com/AssembleSecond"
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "Count",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://4bj9sgtt07.execute-api.us-east-1.amazonaws.com/Count"
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "Modify",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://d1r6ma2lyb.execute-api.us-east-1.amazonaws.com/Modify"
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "Split",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://5npswa17la.execute-api.us-east-1.amazonaws.com/Split"
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "SplitSecond",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "https://bp4rqdvb74.execute-api.us-east-1.amazonaws.com/SplitSecond"
+                }
+            }
+        ]
+    }
+]
